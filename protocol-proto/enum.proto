@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+enum eGuild {
+  EGUILD_NONE = 0;
+  EGUILD_ONE = 1;
+  EGUILD_TWO = 2;
+  EGUILD_THREE = 3;
+}

@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+import public "enum.proto";
+
+message PT_Test {
+  int32 fnum = 1;
+  string payload = 2;
+  eGuild eValue = 3;
+}
+
+message GuildBaseInfo {
+  string guildName = 1;
+  int32 guildLv = 2;
+}
+
+message PT_GuildCreate {
+  GuildBaseInfo sGuildBase = 1;
+  eGuild eValue  = 2;  
+}
+
